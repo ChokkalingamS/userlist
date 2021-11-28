@@ -65,7 +65,7 @@ export default function App()
 
 function Container() 
 {
-  // Dark Mode/ Light Mode Condional Styling
+  // Dark Mode/ Light Mode Condtional Styling
   let [themechange,setThemechange]=useState('dark')
   let lightmode=<Tooltip title="Light Mode"><LightModeIcon style={{fill:"gold"}}/></Tooltip>
   let darkmode=<Tooltip title="Dark Mode"><DarkModeIcon style={{fill:"white"}}/></Tooltip>
